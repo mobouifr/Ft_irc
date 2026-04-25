@@ -59,7 +59,7 @@ The listening socket is created once through `socket()`, `bind()`, and `listen()
 
 This gives one communication channel per client while keeping a single centralized event loop. The server remains single-threaded, yet manages many simultaneous clients by reacting only to descriptors the kernel has marked ready.
 
-> **Interactive Diagram:** [View the full Excalidraw board](https://excalidraw.com/#json=dRTYSnqIx4pPDoPVKPmPg,mmQf5wxbr-h_L6IkACEjPA) for more details.
+> **Interactive Diagram:** [View the full Excalidraw board (made by me)](https://excalidraw.com/#json=dRTYSnqIx4pPDoPVKPmPg,mmQf5wxbr-h_L6IkACEjPA) for more details.
 
 ---
 
