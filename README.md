@@ -44,6 +44,7 @@ struct pollfd {
 
 <div align="center">
   <img src="docs/assets/poll-overview.png" alt="pollfd struct and bitmask reference" width="80%"/>
+    
   <sub><i>The pollfd struct and bitmask reference used in the server's event loop</i></sub>
 </div>
 
@@ -51,6 +52,7 @@ struct pollfd {
 
 <div align="center">
   <img src="docs/assets/poll-simple-terms.png" alt="What poll() tells the kernel" width="80%"/>
+    
   <sub><i>What poll() actually tells the kernel — in plain terms</i></sub>
 </div>
 
@@ -60,6 +62,7 @@ When `poll()` returns, the server inspects each entry in `_pollTable[i].revents`
 
 <div align="center">
   <img src="docs/assets/pollin-pollout.png" alt="POLLIN and POLLOUT behavior" width="80%"/>
+    
   <sub><i>POLLIN and POLLOUT: when the kernel signals readiness and what to do next</i></sub>
 </div>
 
@@ -69,6 +72,7 @@ When `poll()` returns, the server inspects each entry in `_pollTable[i].revents`
 
 <div align="center">
   <img src="docs/assets/data-journey.png" alt="End-to-end message path" width="80%"/>
+    
   <sub><i>End-to-end path of a message: from IRC client keypress to server handler</i></sub>
 </div>
 
@@ -85,6 +89,7 @@ When `poll()` returns, the server inspects each entry in `_pollTable[i].revents`
 
 <div align="center">
   <img src="docs/assets/network-to-server-summary.png" alt="Kernel-side packet handling" width="80%"/>
+    
   <sub><i>How the kernel processes incoming packets before poll() and recv() are involved</i></sub>
 </div>
 
@@ -102,6 +107,7 @@ Each complete line is tokenized and routed to its handler: `PASS`, `NICK`, `USER
 
 <div align="center">
   <img src="docs/assets/architecture-overview.png" alt="Server architecture diagram" width="80%"/>
+    
   <sub><i>Multiple clients, one listening socket, one poll table</i></sub>
 </div>
 
