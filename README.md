@@ -1,6 +1,8 @@
 *This project has been created as part of the 42 curriculum by mobouifr.*
 
-# ft_irc 
+<p align="center">
+# ft_irc
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-blue" alt="Language: C++" />
